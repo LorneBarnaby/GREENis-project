@@ -1,0 +1,75 @@
+.header{
+  font-size: 24pt;
+  font-weight: bold;
+  color: #09ea09;
+  text-align: center;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+body{
+  background-color: #1a1c1a;
+  font-family: "Courier New";
+
+}
+
+.normalText{
+  font-size: 14pt;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#exampleLink{
+  color:  white;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.dropdownContent{
+  display: none;
+  position: center;
+  text-align: center;
+  color: white;
+  background-color: inherit;
+  font-size: 14pt;
+  font-weight: lighter;
+  min-width:  inherit;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.headerEx:hover + .dropdownContent{
+  display: block;
+}
+
+.headerEx:hover{
+  color: white;
+}
+
+
+.showMeBoi{
+  display: none;
+  position: center;
+  text-align: center;
+  color: white;
+  background-color: inherit;
+  font-size: 14pt;
+  font-weight: lighter;
+  min-width:  inherit;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+.back{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+.back:hover + .showMeBoi{
+  display: block;
+}
